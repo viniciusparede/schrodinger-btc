@@ -2,7 +2,7 @@
 
 A Streamlit-based simulator for modeling Bitcoin's fair market value by estimating its potential to absorb the monetary premium of traditional store-of-value assets like gold, real estate, and bonds.
 
-![Schrödinger's BTC Simulator](https://schrodinger-btc.streamlit.app/)
+https://schrodinger-btc.streamlit.app/
 
 ---
 
