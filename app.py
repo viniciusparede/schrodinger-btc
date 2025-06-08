@@ -292,14 +292,6 @@ def display_main_content(
     )
     st.markdown("---")
 
-    # --- Tabela de Detalhamento ---
-    st.subheader("📊 Detailed Valuation Breakdown")
-    df_display = df_breakdown.copy()
-    df_display["Present Value (PV)"] = df_display["Present Value (PV)"].map(
-        "${:,.0f}".format
-    )
-    st.dataframe(df_display, use_container_width=True)
-
 
 def main():
     asset_params, discount_rate, current_price = display_sidebar()
