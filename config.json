@@ -1,0 +1,204 @@
+{
+  "global_settings": {
+    "supply": 21000000,
+    "default_btc_price": 100000,
+    "default_discount_rate_pct": 4.3,
+    "default_stock_mcap": 100000000000000,
+    "default_bonds_mcap": 130000000000000,
+    "default_gold_mcap": 10000000000000,
+    "default_silver_mcap": 1300000000000,
+    "default_real_state_mcap": 320000000000000,
+    "default_crypto_mcap": 500000000000,
+    "default_fine_art_mcap": 60000000000
+  },
+  "scenarios": {
+    "Bearish": {
+      "discount_rate_pct": 5.5,
+      "assets": {
+        "Stocks": {
+          "mcap": "{{default_stock_mcap}}",
+          "monetary_premium_pct": 70,
+          "probability_capture_pct": 10,
+          "time_horizon_years": 30
+        },
+        "Bonds": {
+          "mcap": "{{default_bonds_mcap}}",
+          "monetary_premium_pct": 70,
+          "probability_capture_pct": 10,
+          "time_horizon_years": 30
+        },
+        "Gold": {
+          "mcap": "{{default_gold_mcap}}",
+          "monetary_premium_pct": 50,
+          "probability_capture_pct": 60,
+          "time_horizon_years": 10
+        },
+        "Silver": {
+          "mcap": "{{default_silver_mcap}}",
+          "monetary_premium_pct": 10,
+          "probability_capture_pct": 70,
+          "time_horizon_years": 10
+        },
+        "Real Estate": {
+          "mcap": "{{default_real_state_mcap}}",
+          "monetary_premium_pct": 40,
+          "probability_capture_pct": 5,
+          "time_horizon_years": 30
+        },
+        "Crypto (ex-BTC)": {
+          "mcap": "{{default_crypto_mcap}}",
+          "monetary_premium_pct": 100,
+          "probability_capture_pct": 75,
+          "time_horizon_years": 10
+        },
+        "Fine Art": {
+          "mcap": "{{default_fine_art_mcap}}",
+          "monetary_premium_pct": 5,
+          "probability_capture_pct": 5,
+          "time_horizon_years": 15
+        }
+      }
+    },
+    "Base": {
+      "discount_rate_pct": 4.44,
+      "assets": {
+        "Stocks": {
+          "mcap": "{{default_stock_mcap}}",
+          "monetary_premium_pct": 80,
+          "probability_capture_pct": 25,
+          "time_horizon_years": 20
+        },
+        "Bonds": {
+          "mcap": "{{default_bonds_mcap}}",
+          "monetary_premium_pct": 80,
+          "probability_capture_pct": 25,
+          "time_horizon_years": 20
+        },
+        "Gold": {
+          "mcap": "{{default_gold_mcap}}",
+          "monetary_premium_pct": 60,
+          "probability_capture_pct": 70,
+          "time_horizon_years": 7
+        },
+        "Silver": {
+          "mcap": "{{default_silver_mcap}}",
+          "monetary_premium_pct": 10,
+          "probability_capture_pct": 80,
+          "time_horizon_years": 7
+        },
+        "Real Estate": {
+          "mcap": "{{default_real_state_mcap}}",
+          "monetary_premium_pct": 50,
+          "probability_capture_pct": 10,
+          "time_horizon_years": 20
+        },
+        "Crypto (ex-BTC)": {
+          "mcap": "{{default_crypto_mcap}}",
+          "monetary_premium_pct": 100,
+          "probability_capture_pct": 85,
+          "time_horizon_years": 6
+        },
+        "Fine Art": {
+          "mcap": "{{default_fine_art_mcap}}",
+          "monetary_premium_pct": 10,
+          "probability_capture_pct": 10,
+          "time_horizon_years": 15
+        }
+      }
+    },
+    "Bullish": {
+      "discount_rate_pct": 3.5,
+      "assets": {
+        "Stocks": {
+          "mcap": "{{default_stock_mcap}}",
+          "monetary_premium_pct": 90,
+          "probability_capture_pct": 50,
+          "time_horizon_years": 15
+        },
+        "Bonds": {
+          "mcap": "{{default_bonds_mcap}}",
+          "monetary_premium_pct": 90,
+          "probability_capture_pct": 50,
+          "time_horizon_years": 15
+        },
+        "Gold": {
+          "mcap": "{{default_gold_mcap}}",
+          "monetary_premium_pct": 75,
+          "probability_capture_pct": 80,
+          "time_horizon_years": 4
+        },
+        "Silver": {
+          "mcap": "{{default_silver_mcap}}",
+          "monetary_premium_pct": 10,
+          "probability_capture_pct": 90,
+          "time_horizon_years": 5
+        },
+        "Real Estate": {
+          "mcap": "{{default_real_state_mcap}}",
+          "monetary_premium_pct": 70,
+          "probability_capture_pct": 25,
+          "time_horizon_years": 15
+        },
+        "Crypto (ex-BTC)": {
+          "mcap": "{{default_crypto_mcap}}",
+          "monetary_premium_pct": 100,
+          "probability_capture_pct": 99,
+          "time_horizon_years": 4
+        },
+        "Fine Art": {
+          "mcap": "{{default_fine_art_mcap}}",
+          "monetary_premium_pct": 20,
+          "probability_capture_pct": 40,
+          "time_horizon_years": 15
+        }
+      }
+    },
+    "Hyper": {
+      "discount_rate_pct": 2.75,
+      "assets": {
+        "Stocks": {
+          "mcap": "{{default_stock_mcap}}",
+          "monetary_premium_pct": 90,
+          "probability_capture_pct": 100,
+          "time_horizon_years": 15
+        },
+        "Bonds": {
+          "mcap": "{{default_bonds_mcap}}",
+          "monetary_premium_pct": 90,
+          "probability_capture_pct": 100,
+          "time_horizon_years": 15
+        },
+        "Gold": {
+          "mcap": "{{default_gold_mcap}}",
+          "monetary_premium_pct": 90,
+          "probability_capture_pct": 100,
+          "time_horizon_years": 10
+        },
+        "Silver": {
+          "mcap": "{{default_silver_mcap}}",
+          "monetary_premium_pct": 90,
+          "probability_capture_pct": 100,
+          "time_horizon_years": 10
+        },
+        "Real Estate": {
+          "mcap": "{{default_real_state_mcap}}",
+          "monetary_premium_pct": 90,
+          "probability_capture_pct": 100,
+          "time_horizon_years": 15
+        },
+        "Crypto (ex-BTC)": {
+          "mcap": "{{default_crypto_mcap}}",
+          "monetary_premium_pct": 100,
+          "probability_capture_pct": 100,
+          "time_horizon_years": 10
+        },
+        "Fine Art": {
+          "mcap": "{{default_fine_art_mcap}}",
+          "monetary_premium_pct": 90,
+          "probability_capture_pct": 100,
+          "time_horizon_years": 15
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+/* --- Geral --- */
+.main {
+    background-color: #f0f2f6; /* Fundo mais suave */
+}
+h1 {
+    color: #1a73e8;
+    font-size: 2.2rem;
+    text-align: center;
+    font-weight: 600;
+}
+h2, h3, h4, h5, h6 {
+    color: #333;
+}
+.st-emotion-cache-18ni7ap, .st-emotion-cache-z5fcl4 {
+    background-color: #e8eaf6;
+}
+/* --- Barra Lateral --- */
+.stSidebar {
+    background-color: #ffffff;
+    border-right: 1px solid #e0e0e0;
+}
+.stSidebar h2 {
+    color: #1a73e8;
+    font-size: 1.6rem;
+}
+/* --- Métricas Principais --- */
+.stMetric {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease-in-out;
+}
+.stMetric:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.08);
+}
+.stMetric label {
+    font-size: 1.1rem;
+    color: #5f6368;
+}
+.stMetric .value {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #1a73e8;
+}
+/* --- Tabelas e Gráficos --- */
+.stDataFrame, .stPlotlyChart {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
