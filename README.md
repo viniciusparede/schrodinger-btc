@@ -28,3 +28,9 @@ docker build -t schrodinger-btc-app .
 
 # Run the container
 docker run -p 8501:8501 schrodinger-btc-app
+```
+
+## References
+
+- [Schrödinger's Bitcoin Thesis (PDF)](https://nakamotoportfolio.com/static/docs/Schrodingers_Coin_Model.pdf) – Conceptual foundation for the monetary premium absorption model.
+
